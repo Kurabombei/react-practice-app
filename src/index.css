@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(32, 32, 32);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card {
+  max-width: 71.5rem;
+  padding: 1.25rem;
+  background: azure;
+  min-height: 10rem;
+  border: black 2px solid;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.625rem 6.25rem 0.0625rem rgba(255,255,255,0.1);
+  -moz-box-shadow: 0 0.625rem 6.25rem 0.0625rem rgba(255,255,255,0.1);
+  box-shadow: 0 0.625rem 6.25rem 0.0625rem rgba(255,255,255,0.1);
+}
+
+.grid {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 1rem auto;
+  width: 150rem;
+  padding: 1rem;
+  background-image: url("assets/noise.png");
+  background-color: #021623;
+  min-height: 10rem;
+  border: black 1px solid;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.625rem 6.25rem 0.0625rem rgb(231, 79, 9);
+  -moz-box-shadow: 0 0.625rem 6.25rem 0.0625rem rgb(231, 79, 9);
+  box-shadow: 0 0.625rem 6.25rem 0.0625rem rgb(231, 79, 9);
 }
